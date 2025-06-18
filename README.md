@@ -62,7 +62,7 @@ The AWS user needs the following permissions:
 - `s3:ListBucket`
 - `s3:GetObject`
 
-
+### Important Notes
 - Bucket names must be globally unique across all AWS accounts
 - The first time you create a bucket, you might need to wait a few minutes for DNS propagation
 - For production use, consider adding CloudFront in front of your S3 bucket for better performance and HTTPS support
